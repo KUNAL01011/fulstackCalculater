@@ -1,0 +1,91 @@
+/* styleing for main container */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 82px;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.wrraper {
+    max-width: 350px;
+    max-height: 535px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.mini-container {
+    width: 100%;
+}
+
+.text-area {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+
+}
+
+input {
+    padding: 0;
+    width: 100%;
+    height: 5rem;
+    font-size: 34px;
+    text-align: end;
+}
+
+.btns {
+    width: 100%;
+}
+
+.btn-row {
+    width: 100%;
+}
+
+.btn {
+    margin: 5px;
+    width: 21%;
+    height: 65px;
+}
+
+.big-btn {
+    width: 46%;
+}
+
+.btn-fifty {
+    width: 46%;
+}
+
+.bigZ-btn {
+    width: 423px;
+}
