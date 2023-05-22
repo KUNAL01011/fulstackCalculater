@@ -1,91 +1,135 @@
-/* styleing for main container */
+/* Resets */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
 }
 
+/* Container styling */
 .container {
-    width: 100%;
-    /* height: 100vh; */
+  width: 100%;
 }
 
+
+/* Navigation bar styleing */
 .navbar {
-    display: flex;
-    width: 100%;
-    height: 70px;
-    background-color: aqua;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: aqua;
 }
 
 .navbar-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 82px;
-    font-size: 1.2rem;
-    list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 82px;
+  font-size: 1.2rem;
+  list-style: none;
+
+  @media only screen and (max-width: 768px) {
+    gap: 4rem
+  }
+
+  @media only screen and (max-width: 425px) {
+    gap: 3rem
+  }
+
+  @media only screen and (max-width: 375px) {
+    gap: 2rem
+  }
+
+  @media only screen and (max-width: 320px) {
+    gap: 1rem
+  }
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
+
+/* Heading styling  */
 h1 {
-    text-align: center;
-    margin-top: 40px;
+  text-align: center;
+  margin-top: 40px;
 }
 
+
+/* Contant wrraper styleing  */
 .wrraper {
-    max-width: 350px;
-    max-height: 535px;
-    margin: auto;
-    border: 2px solid black;
+  max-width: 350px;
+  max-height: 535px;
+  margin: auto;
+  border: 2px solid black;
+
+  @media only screen and (max-width: 320px) {
+    max-width: 310px;
+  }
 }
 
+/* Second container styleing  */
 .mini-container {
-    width: 100%;
+  width: 100%;
 }
 
+/* Input area styling  */
 .text-area {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    border: 2px solid black;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 2px solid black;
 
 }
 
 input {
-    padding: 0;
-    width: 100%;
-    height: 5rem;
-    font-size: 34px;
-    text-align: end;
+  padding: 0;
+  width: 100%;
+  height: 5rem;
+  font-size: 34px;
+  text-align: end;
 }
 
+
+/* Buttons styling  */
+
 .btns {
-    width: 100%;
+  width: 100%;
+
+  @media only screen and (max-width: 320px) {
+    text-align: center;
+  }
 }
 
 .btn-row {
-    width: 100%;
+  width: 100%;
 }
 
 .btn {
-    margin: 5px;
-    width: 21%;
-    height: 65px;
+  margin: 5px;
+  width: 21%;
+  height: 65px;
+
+  @media only screen and (max-width: 320px) {
+    width: 20%;
+  }
 }
 
 .big-btn {
-    width: 46%;
+  width: 46%;
+
+  @media only screen and (max-width: 320px) {
+    width: 44%;
+  }
 }
 
 .btn-fifty {
-    width: 46%;
-}
+  width: 46%;
 
-.bigZ-btn {
-    width: 423px;
+  @media only screen and (max-width: 320px) {
+    width: 44%;
+  }
+
 }
